@@ -19,7 +19,7 @@ security:
 eureka:
   client:
     service-url:
-      defaultZone: http://edmindev:mldnjava@eureka-dev.com:7001/eureka
+      defaultZone: http://edmindev:mldnjava@eureka-7001.com:7001/eureka
     register-with-eureka: false
     fetch-registry: false
   instance:
@@ -40,7 +40,7 @@ security:
 eureka:
   client:
     service-url:
-      defaultZone: http://edminbeta:mldnjava@eureka-dev.com:7001/eureka
+      defaultZone: http://edminbeta:mldnjava@eureka-7001.com:7001/eureka
     register-with-eureka: false
     fetch-registry: false
   instance:
